@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  </head>
+<style>
+  img{
+display: block;
+height: 300px;
+margin: 100px auto;
+margin-bottom: 20px;
+  }
+  .button-alignment{
+    text-align: center;
+  }
+  button {
+    background-color: grey;
+    padding: 8px 30px;
+    font-size: 20px;
+  }
+  </style>
+  <body>
+    <img id="img">
+    <div class="button-alignment">
+      <button onclick='img1()'> 1 </button>
+      <button onclick='img2()'> 2 </button>
+      <button onclick='img3()'> 3 </button>
+    </div>
+  </body>
+    <script>
+      var imgs = [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Acer_diabolicum_9_%28medium_crop%29.jpg/320px-Acer_diabolicum_9_%28medium_crop%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Delos_Museum_Mosaik_Dionysos_09.jpg/240px-Delos_Museum_Mosaik_Dionysos_09.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg/800px-CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg"
+      ];
+function img1() {
+document.getElementById('img').src = imgs[0];
+}
+function img2() {
+document.getElementById('img').src = imgs[1];
+}
+function img3() {
+document.getElementById('img').src = imgs[2];
+}
+      </script>
+</html>
