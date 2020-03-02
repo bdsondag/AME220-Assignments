@@ -24,7 +24,7 @@
 	margin-bottom: .125em;
 	padding: .25em 1em;
 	z-index: 20;
-  text-align: center;
+  	text-align: center;
 }
 #accordion label:hover {
 	background: lightGreen;
@@ -167,13 +167,13 @@
 		<article>
     	<ol class="b">
       	<li>
-        	1. Ingrid Sondag
+        	Ingrid Sondag
       	</li>
       	<li>
-        	2. Shad Ashcroft
+        	Shad Ashcroft
       	</li>
       	<li>
-        	3. Yvonne Bland
+        	Yvonne Bland
       	</li>
     	</ol>
   	</article>
