@@ -1,4 +1,3 @@
-<!Doctype html>
 <html>
   <head style="font-size:120px">
   <style>
